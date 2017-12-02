@@ -2,7 +2,7 @@
 
 function max(arr){
     var maximumNumber = arr[0];
-    for(var i = 1; 1 < arr.length; i++){
+    for(var i = 1; i < arr.length; i++){
         if(arr[i] > maximumNumber){
             maximumNumber = arr[i];
         }
